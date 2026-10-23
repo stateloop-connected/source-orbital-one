@@ -1,0 +1,73 @@
+{
+  "build_script": "tsc --noEmit && vite build",
+  "gameplay_or_asset_changes": false,
+  "google_fonts_selfhost": {
+    "families": [
+      {
+        "family": "Barlow Condensed",
+        "source": "ofl/barlowcondensed/OFL.txt",
+        "spdx": "OFL-1.1"
+      },
+      {
+        "family": "IBM Plex Mono",
+        "source": "ofl/ibmplexmono/OFL.txt",
+        "spdx": "OFL-1.1"
+      }
+    ],
+    "font_files": 27,
+    "fonts_dir": ".packaging/google-fonts",
+    "google_fonts_commit": "e7db6ca603fd4862010383ff17ffd6cc4ffac1c0",
+    "helper": "google-fonts-selfhost.py",
+    "stylesheets": [
+      {
+        "local": ".packaging/google-fonts/709ae3234350e11e.css",
+        "sha256": "228e51c74fb1aecd87ccbe9677e4254c9cfa978646c04b0c001ed3ad36c3a444",
+        "url": "https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap"
+      }
+    ],
+    "total_font_bytes": 327860,
+    "version": 1
+  },
+  "lockfile": "package-lock.json",
+  "mode": "native_source_build",
+  "repository": "SNAPKITTYWEST/orbital-one",
+  "schema_version": 1,
+  "source_changes": [
+    ".packaging/plan.json",
+    ".packaging/google-fonts/709ae3234350e11e.css",
+    ".packaging/google-fonts/NOTICE.md",
+    ".packaging/google-fonts/files/132ba860efc49c6cfae7.woff2",
+    ".packaging/google-fonts/files/203ce92810c0a162fcb0.woff2",
+    ".packaging/google-fonts/files/245a9a663e93937931ad.woff2",
+    ".packaging/google-fonts/files/2a73cdecea5ce99cd0e4.woff2",
+    ".packaging/google-fonts/files/2a84ba04cd81470810c6.woff2",
+    ".packaging/google-fonts/files/2dade00f521a0cb68dc8.woff2",
+    ".packaging/google-fonts/files/3c52edecf0bb7d4283f6.woff2",
+    ".packaging/google-fonts/files/4f27cb617be4e0a730c3.woff2",
+    ".packaging/google-fonts/files/52b6c390ce642b7df887.woff2",
+    ".packaging/google-fonts/files/796754f6fa2c0fca3404.woff2",
+    ".packaging/google-fonts/files/7e3d7e3c7de8e8f704e6.woff2",
+    ".packaging/google-fonts/files/808d8d26b49135abc008.woff2",
+    ".packaging/google-fonts/files/86628368fe0c7cce861c.woff2",
+    ".packaging/google-fonts/files/8fbedc8e644362eca38e.woff2",
+    ".packaging/google-fonts/files/9c9153ac33826481b424.woff2",
+    ".packaging/google-fonts/files/ae5fc1eadb0588e621b5.woff2",
+    ".packaging/google-fonts/files/b06594e3dfbc9fabb876.woff2",
+    ".packaging/google-fonts/files/b75f85b17f2febedb741.woff2",
+    ".packaging/google-fonts/files/c70f6b078a094422ffaa.woff2",
+    ".packaging/google-fonts/files/d0331e23a41aca95e286.woff2",
+    ".packaging/google-fonts/files/d1b233760bed303a5cb5.woff2",
+    ".packaging/google-fonts/files/eb889034c0832c073a5f.woff2",
+    ".packaging/google-fonts/files/ed3206e8ede4a97a675e.woff2",
+    ".packaging/google-fonts/files/f9c74283b1693b2d9c4d.woff2",
+    ".packaging/google-fonts/files/fd3dd31c82271ef24699.woff2",
+    ".packaging/google-fonts/files/fdb19320c0ecde519ff5.woff2",
+    ".packaging/google-fonts/files/ff0d1e9399963bbf448a.woff2",
+    ".packaging/google-fonts/licenses/Barlow-Condensed-OFL-1.1.txt",
+    ".packaging/google-fonts/licenses/IBM-Plex-Mono-OFL-1.1.txt",
+    "src/style.css"
+  ],
+  "status": "ready",
+  "upstream_code_executed_locally": false,
+  "upstream_sha": "56058fccc0381919cab1a286bf13a957a53094a8"
+}
